@@ -46,7 +46,7 @@ for word, tag in tagged:
     elif 'RB' in tag and swn.senti_synsets(word):
          ss_set = list(swn.senti_synsets(word))[0]
     if ss_set:
-        pos=pos+synset.pos_score()
+        pos=pos+synset.pos_score() #check the positive score and verify
         neg=neg+synset.neg_score()
         obj=obj+synset.obj_score()
         count+=1
