@@ -190,6 +190,10 @@ possessive
 protective
 purposeless
 rankled
+deadly
+kill
+diplomatic
+melancholy
 rattled
 raving
 reckless
