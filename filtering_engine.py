@@ -13,7 +13,7 @@ def sorting ():
 	#	out.writelines(sorted(lines2));
 
 def emofilterlabel () :
-	outFile = open ("filtered_data.txt", "w");
+	outFile = open ("filtered_data.txt", "w");  #outfile
 	buffer = [];
 	with open('raw_data.txt') as f_a, open('Emotions_db.txt') as f_b:
     		a_lines = set(f_a.read().splitlines())
