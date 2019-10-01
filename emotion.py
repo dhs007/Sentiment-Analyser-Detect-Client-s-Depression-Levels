@@ -13,6 +13,7 @@ class Emotion:
         self.parent = None
         self.level = 0
         self.children = []
+        print(self.name,self.parent,self.parent,self.level,self.children)
         
         if parent_name:
             self.parent = Emotion.emotions[parent_name] if parent_name else None
