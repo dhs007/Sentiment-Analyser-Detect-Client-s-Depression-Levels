@@ -47,3 +47,6 @@ print("Accuracy: {0}".format(accuracy))
 # Show 5 most informative features
 cl.show_informative_features(5)
 
+l =range(10)
+for i in l:
+    print(i)
