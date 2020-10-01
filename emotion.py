@@ -18,7 +18,10 @@ class Emotion:
             self.parent = Emotion.emotions[parent_name] if parent_name else None
             self.parent.children.append(self)
             self.level = self.parent.level + 1
-            
+           if child_bname:
+            self.parent = Emotion.emotions[child_bname] if child_bname else None
+            self.child.children.append(self)
+            self.level = self.parent.level + 1         
             
     def get_level(self, level):
         """Returns the parent of self at the given level.
