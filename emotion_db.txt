@@ -9,6 +9,12 @@ alert
 angry
 anguished
 anguished
+afraid
+panicked
+frown
+fierce
+doroth
+able
 annoyed
 antagonized
 anxious
