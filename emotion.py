@@ -26,6 +26,23 @@ class Emotion:
             level -- level in the hierarchy (int)        
         """
         
+                    
+    def get_level(self, level):
+        """Returns the parent of self at the given level.
+            level -- level in the hierarchy (int)        
+        """
+        
+                    
+    def get_level(self, level):
+        """Returns the parent of self at the given level.
+            level -- level in the hierarchy (int)        
+        """
+                    
+    def get_level(self, level):
+        """Returns the parent of self at the given level.
+            level -- level in the hierarchy (int)        
+        """
+        
         em = self
         while em.level > level and em.level >= 0:
             em = em.parent
