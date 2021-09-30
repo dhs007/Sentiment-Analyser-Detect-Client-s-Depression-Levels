@@ -24,7 +24,40 @@ def emofilterlabel () :
 			buffer.append(line);
 			buffer.append("\n");
 	outFile.write("".join(buffer));
-	
+	def emofilterlabel () :
+	outFile = open ("filtered_data.txt", "w");  #outfile
+	buffer = [];
+	with open('raw_data.txt') as f_a, open('Emotions_db.txt') as f_b:
+    		a_lines = set(f_a.read().splitlines())
+    		b_lines = set(f_b.read().splitlines())
+	for line in a_lines:
+    		print(line, '->', line in b_lines);
+		if line in b_lines:
+			buffer.append(line);
+			buffer.append("\n");
+	outFile.write("".join(buffer));def emofilterlabel () :
+	outFile = open ("filtered_data.txt", "w");  #outfile
+	buffer = [];
+	with open('raw_data.txt') as f_a, open('Emotions_db.txt') as f_b:
+    		a_lines = set(f_a.read().splitlines())
+    		b_lines = set(f_b.read().splitlines())
+	for line in a_lines:
+    		print(line, '->', line in b_lines);
+		if line in b_lines:
+			buffer.append(line);
+			buffer.append("\n");
+	outFile.write("".join(buffer));def emofilterlabel () :
+	outFile = open ("filtered_data.txt", "w");  #outfile
+	buffer = [];
+	with open('raw_data.txt') as f_a, open('Emotions_db.txt') as f_b:
+    		a_lines = set(f_a.read().splitlines())
+    		b_lines = set(f_b.read().splitlines())
+	for line in a_lines:
+    		print(line, '->', line in b_lines);
+		if line in b_lines:
+			buffer.append(line);
+			buffer.append("\n");
+	outFile.write("".join(buffer));
 	outFile.close();
 from itertools import chain;
 from glob import glob;
