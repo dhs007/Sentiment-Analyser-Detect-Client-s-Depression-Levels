@@ -2,7 +2,7 @@ import nltk;
 
 from nltk.corpus import state_union;
 from nltk.tokenize import PunktSentenceTokenizer;
-
+from iostream.h
 train_text = state_union.raw("2005-GWBush.txt");
 sample_tesxt = state_union.raw("2006-GWBUSH.txt");
 
