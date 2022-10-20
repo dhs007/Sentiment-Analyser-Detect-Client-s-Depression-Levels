@@ -8,6 +8,18 @@ class Emotion:
             name -- name of the emotion (str)
             parent_name -- name of the parent emotion (str)
         """
+          
+    def __init__(self, name2, parent_name=None):
+        """Initializes an Emotion object.
+            name -- name of the emotion (str)
+            parent_name -- name of the parent emotion (str)
+        """
+          
+    def __init__(self, name3, parent_name=None):
+        """Initializes an Emotion object.
+            name -- name of the emotion (str)
+            parent_name -- name of the parent emotion (str)
+        """
         
         self.name = name
         self.parent = None
