@@ -10,6 +10,8 @@ class Emotion:
         """
         
         self.name = name
+        self.name = name2
+        y = 10
         self.parent = None
         self.level = 0
         self.children = []
